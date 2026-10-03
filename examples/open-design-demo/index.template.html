@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="基于 Open Design 的 Airbnb 风格规范，交互展示摄影界面、字体层级和文字对比度。">
+  <title>栖间 · Open Design 设计演示</title>
+  <style>{{STYLE}}</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#" aria-label="栖间，返回空间预览"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 25V14L16 5l11 9v11M11 25V14h10v11M2 25h28"/></svg><span>栖间</span></a>
+      <nav class="view-tabs" role="tablist" aria-label="设计演示视图">
+        <button id="tab-preview" role="tab" aria-selected="true" aria-controls="preview" data-view="preview">空间预览</button>
+        <button id="tab-type" role="tab" aria-selected="false" aria-controls="type" data-view="type" tabindex="-1">字体层级</button>
+        <button id="tab-color" role="tab" aria-selected="false" aria-controls="color" data-view="color" tabindex="-1">对比度实验</button>
+      </nav>
+      <a class="source-link" href="https://github.com/nexu-io/open-design/blob/main/design-systems/airbnb/DESIGN-zh.md" target="_blank" rel="noopener noreferrer">设计来源 <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main" class="page">
+    <section id="preview" role="tabpanel" aria-labelledby="tab-preview">
+      <div class="page-heading">
+        <div><p class="eyebrow">Open Design · Airbnb 风格</p><h1>给生活，留一点空白。</h1><p class="lede">让照片讲故事，让文字清晰，让界面轻一点。</p></div>
+        <label class="annotation-control"><input type="checkbox" id="annotations"><span class="switch-track" aria-hidden="true"></span>显示设计标注</label>
+      </div>
+      <div class="browse-tools">
+        <div class="categories" aria-label="空间分类"><button data-category="all" class="selected" aria-pressed="true">全部空间</button><button data-category="interior" aria-pressed="false">室内</button><button data-category="nature" aria-pressed="false">山野</button></div>
+        <button class="saved-filter" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg>收藏 <span id="saved-count">0</span></button>
+      </div>
+      <div class="space-grid">
+        <article class="space-card" data-id="living" data-category="interior">
+          <div class="photo-wrap"><button class="photo-button" data-open="living" aria-label="查看晨光客厅的设计"><img src="{{LIVING}}" alt="暖色现代客厅，浅色沙发与圆形茶几，自然光落在木地板上" width="1200" height="900"></button><button class="favorite" data-save="living" aria-label="收藏晨光客厅" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg></button></div>
+          <span class="design-note">摄影 · 4:3 / 圆角 14px / 无阴影</span>
+          <div class="space-info"><div class="card-topline"><span>室内 · 自然光</span><span class="card-index">01</span></div><h2><button data-open="living">晨光客厅</button></h2><span class="design-note">标题 · 20px / 600 / #222222</span><p>暖色木质与柔软织物，把忙碌留在门外。</p><span class="design-note">说明 · 14px / 500 / #6A6A6A</span><button class="text-link" data-open="living">看看设计 <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="space-card" data-id="cabin" data-category="nature">
+          <div class="photo-wrap"><button class="photo-button" data-open="cabin" aria-label="查看冬日木屋的设计"><img src="{{CABIN}}" alt="雪林中的木屋，积雪包围深色木墙与明亮窗户" width="1200" height="900" loading="lazy"></button><button class="favorite" data-save="cabin" aria-label="收藏冬日木屋" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg></button></div>
+          <span class="design-note">摄影 · 4:3 / 圆角 14px / 无阴影</span>
+          <div class="space-info"><div class="card-topline"><span>山野 · 冬日</span><span class="card-index">02</span></div><h2><button data-open="cabin">冬日木屋</button></h2><span class="design-note">标题 · 20px / 600 / #222222</span><p>木屋、雪与树，让时间慢下来。</p><span class="design-note">说明 · 14px / 500 / #6A6A6A</span><button class="text-link" data-open="cabin">看看设计 <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="space-card" data-id="sofa" data-category="interior">
+          <div class="photo-wrap"><button class="photo-button" data-open="sofa" aria-label="查看安静一隅的设计"><img src="{{SOFA}}" alt="简洁客厅中的灰色转角沙发，浅色墙面与克制的装饰" width="1200" height="900" loading="lazy"></button><button class="favorite" data-save="sofa" aria-label="收藏安静一隅" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg></button></div>
+          <span class="design-note">摄影 · 4:3 / 圆角 14px / 无阴影</span>
+          <div class="space-info"><div class="card-topline"><span>室内 · 极简</span><span class="card-index">03</span></div><h2><button data-open="sofa">安静一隅</button></h2><span class="design-note">标题 · 20px / 600 / #222222</span><p>少一点装饰，多一点自在。</p><span class="design-note">说明 · 14px / 500 / #6A6A6A</span><button class="text-link" data-open="sofa">看看设计 <span aria-hidden="true">↗</span></button></div>
+        </article>
+      </div>
+      <p id="empty-state" class="empty-state" hidden>这里还没有收藏。点击照片上的爱心，留下喜欢的空间。</p>
+      <p id="browse-status" class="sr-only" role="status"></p>
+      <div class="principle-strip"><div><span class="principle-number">01</span><h3>摄影优先</h3><p>4:3 图片，14px 圆角<br>把文字放在照片下方</p></div><div><span class="principle-number">02</span><h3>清楚的层级</h3><p>28px 标题，16px 正文<br>用字号与字重区分信息</p></div><div><span class="principle-number">03</span><h3>克制的颜色</h3><p>近黑文字，浅灰分隔<br>把珊瑚色留给主要操作</p></div></div>
+    </section>
+    <section id="type" role="tabpanel" aria-labelledby="tab-type" hidden>
+      <div class="page-heading"><div><p class="eyebrow">一套字体 · 多种角色</p><h1>让层级，一眼就懂。</h1><p class="lede">调整比例与字体，观察同一组内容的阅读节奏。</p></div><button class="secondary" id="reset-type">恢复默认</button></div>
+      <div class="type-controls"><label>字体<select id="font-family"><option value="inter">Inter + 中文系统字体</option><option value="system">系统字体</option></select></label><label class="scale-control"><span>整体比例 <output id="scale-value">100%</output></span><input id="type-scale" aria-label="整体比例" type="range" min="90" max="130" value="100" step="5"></label></div>
+      <div class="type-specimens" id="type-specimens">
+        <div class="specimen" data-size="28" data-weight="700" data-leading="1.43"><div><span class="specimen-role">区块标题</span><p class="specimen-text">把周末，留给山海。<span>A little room to breathe.</span></p></div><div class="specimen-spec"><strong class="size-label">28px</strong><span>700 字重 · 1.43 行高</span></div></div>
+        <div class="specimen" data-size="22" data-weight="500" data-leading="1.18"><div><span class="specimen-role">子区块标题</span><p class="specimen-text">发现属于你的安静角落。</p></div><div class="specimen-spec"><strong class="size-label">22px</strong><span>500 字重 · 1.18 行高</span></div></div>
+        <div class="specimen" data-size="20" data-weight="600" data-leading="1.2"><div><span class="specimen-role">内容标题</span><p class="specimen-text">晨光客厅 · Morning light</p></div><div class="specimen-spec"><strong class="size-label">20px</strong><span>600 字重 · 1.20 行高</span></div></div>
+        <div class="specimen" data-size="16" data-weight="500" data-leading="1.43"><div><span class="specimen-role">正文</span><p class="specimen-text prose">让窗外的风景成为生活的一部分。一张舒服的沙发，一本读到一半的书，还有一个不用赶路的下午。</p></div><div class="specimen-spec"><strong class="size-label">16px</strong><span>500 字重 · 1.43 行高</span></div></div>
+        <div class="specimen" data-size="14" data-weight="500" data-leading="1.43"><div><span class="specimen-role">说明文字</span><p class="specimen-text muted">自然光 · 木质空间 · 周末灵感</p></div><div class="specimen-spec"><strong class="size-label">14px</strong><span>500 字重 · 1.43 行高</span></div></div>
+        <div class="specimen" data-size="12" data-weight="400" data-leading="1.33"><div><span class="specimen-role">辅助说明</span><p class="specimen-text muted">摄影用作设计演示。Photo credits below.</p></div><div class="specimen-spec"><strong class="size-label">12px</strong><span>400 字重 · 1.33 行高</span></div></div>
+      </div>
+      <div class="type-footnote"><h3>字体如何选择</h3><p>Airbnb Cereal 为专有字体。本页使用 Inter 展示拉丁字符，中文使用 PingFang SC / Microsoft YaHei 回退。正文采用规范里的 500 字重；长段落按其阅读原则使用 1.43 行高。</p></div>
+    </section>
+    <section id="color" role="tabpanel" aria-labelledby="tab-color" hidden>
+      <div class="page-heading"><div><p class="eyebrow">配色 · 阅读 · 可访问性</p><h1>看起来舒服，也要读得清。</h1><p class="lede">选择一组颜色，实时测量文字与背景的对比度。</p></div></div>
+      <div class="contrast-layout">
+        <div><div class="contrast-sample" id="contrast-sample"><p class="sample-kicker">阅读样本</p><p id="sample-text">好的设计，<br>让每个字都清晰。</p><p class="sample-caption">Read comfortably, at your own pace.</p></div><div class="contrast-result" aria-live="polite"><div><span class="result-label">当前对比度</span><strong id="contrast-ratio">15.91<span>:1</span></strong></div><div class="result-summary"><span id="contrast-status">通过 AA</span><p id="contrast-condition">普通文字至少 4.5:1</p></div></div></div>
+        <div class="contrast-settings"><h2>调整样式</h2><div class="color-fields"><label>文字颜色<span class="color-input"><input id="foreground" type="color" value="#222222"><output id="foreground-value">#222222</output></span></label><label>背景颜色<span class="color-input"><input id="background" type="color" value="#ffffff"><output id="background-value">#FFFFFF</output></span></label></div><label class="sample-size-control"><span>字号 <output id="sample-size-value">16px</output></span><input id="sample-size" aria-label="样本文字字号" type="range" min="12" max="36" value="16" step="1"></label><label>字重<select id="sample-weight"><option value="500">500 · 正文</option><option value="700">700 · 粗体标题</option></select></label><p class="settings-label">试试规范中的颜色</p><div class="color-presets"><button data-fg="#222222" data-bg="#ffffff" class="selected">近黑正文 <span class="swatch" style="--swatch:#222222"></span></button><button data-fg="#6a6a6a" data-bg="#ffffff">次级文字 <span class="swatch" style="--swatch:#6a6a6a"></span></button><button data-fg="#ffffff" data-bg="#ff385c">珊瑚色按钮 <span class="swatch" style="--swatch:#ff385c"></span></button><button data-fg="#ffffff" data-bg="#e00b41">深珊瑚色按钮 <span class="swatch" style="--swatch:#e00b41"></span></button></div></div>
+      </div>
+      <div class="color-note"><h3>颜色相同，字号不同，要求也不同。</h3><p>普通文字要求至少 4.5:1；大字号文字要求至少 3:1。大字号指至少 24 CSS px，或至少约 18.67 CSS px 的粗体。是否通过按未舍入的计算值判断。</p><p>规范里的白字珊瑚色按钮，在普通字号下达不到 4.5:1。本页主要按钮采用同一规范中的深珊瑚色。禁用内容等例外请参见 <a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html" target="_blank" rel="noopener noreferrer">W3C 说明 ↗</a>。</p></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-top"><span>栖间 <span class="footer-dot">·</span> 设计演示</span><span>白色画布 / 珊瑚强调 / 摄影优先</span></div><details><summary>设计来源与摄影署名 <span aria-hidden="true">+</span></summary><div class="credits"><p>设计依据：<a href="https://github.com/nexu-io/open-design/blob/main/design-systems/airbnb/DESIGN-zh.md" target="_blank" rel="noopener noreferrer">Open Design · 受 Airbnb 启发的设计系统</a>。这是界面与规范演示，空间名称为演示文案。</p><p>摄影：<a href="https://unsplash.com/photos/modern-living-room-with-minimalist-furniture-and-decor-e0oJLc5FYsg" target="_blank" rel="noopener noreferrer">GoodLifeConstruction</a>、<a href="https://unsplash.com/photos/wooden-cabin-in-a-snowy-forest-setting-UpBjQiy7SZU" target="_blank" rel="noopener noreferrer">Ahmet Yüksek</a>、<a href="https://unsplash.com/photos/a-modern-gray-sectional-sofa-in-a-minimalist-room-MRx-rSdOKtk" target="_blank" rel="noopener noreferrer">Costa Live</a> / Unsplash。</p><p>Inter 字体采用 SIL Open Font License。字体许可随本页内嵌保留。</p></div></details></footer>
+  <dialog id="space-dialog" aria-labelledby="dialog-title"><div class="dialog-photo"><img id="dialog-image" alt=""><button id="dialog-close" class="icon-button" aria-label="关闭详情"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div><div class="dialog-content"><p class="eyebrow">一张卡片的设计细节</p><h2 id="dialog-title"></h2><p id="dialog-description"></p><dl class="design-details"><div><dt>照片</dt><dd>4:3 · 14px 圆角</dd></div><div><dt>标题</dt><dd>20px · 600 · #222222</dd></div><div><dt>说明</dt><dd>14px · 500 · #6A6A6A</dd></div><div><dt>文字间距</dt><dd>4–8px</dd></div></dl><button id="dialog-save" class="primary">收藏这个空间</button><span id="dialog-feedback" role="status"></span></div></dialog>
+  <script type="text/plain" id="inter-font-license">{{FONT_LICENSE}}</script>
+  <script>{{SCRIPT}}</script>
+</body>
+</html>
