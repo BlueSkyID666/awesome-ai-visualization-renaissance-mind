@@ -1,4 +1,4 @@
-last_researched: '2026-10-09'
+last_researched: '2026-10-11'
 schema:
   category: paper-visualization | research-report | literature-map | doc-to-knowledge | infographic-report | presentation-tools
     | video-generation | codebase-map | diagram-generation | data-dashboard | commercial-site | meta-index | rendering-primitive
@@ -23546,3 +23546,63 @@ entries:
     MIT, but GitHub does not expose a detected repository license.
   catalog_section: main
   readme_group: text_visual
+- name: slides by kju4q
+  url: https://github.com/kju4q/slides
+  category: presentation-tools
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 代码分析工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 0
+  license: MIT
+  updated: '2026-10-09'
+  note: Claude Code skill that reads a repository, runs its own logic to reproduce numbers, and builds an eight-to-ten-slide
+    self-contained HTML explainer with real code snippets, charts, examples, citations for unreproduced results, and optional
+    live browser simulations. The deck works offline; authoring executes project code and may install its dependencies.
+    Optional headless browser QA checks layout and console errors. No separate API key or GPU requirement is documented.
+  source_types:
+  - 代码库
+  - 代码/技术描述
+  - 数据/表格
+  - 文本/想法
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - PPT/演示文稿
+  - 网页/交互页面
+  - 图表/仪表盘
+  catalog_section: main
+  readme_group: presentation
+- name: khan-explainer
+  url: https://github.com/haiderfarooq3/khan-explainer
+  category: video-generation
+  surface: skill
+  dependencies:
+  - Agent 宿主
+  - 本地语言环境
+  - 系统工具
+  - 渲染/导出
+  - 模板/素材
+  stars: 61
+  license: MIT
+  updated: '2026-10-11'
+  note: macOS Claude Code skill for narrated board-drawing explainers, screenshot tutorials, and real-audio shorts, using
+    HTML canvas, Playwright, Chromium, ffmpeg, and built-in say speech. Beat durations follow measured narration; blackboard,
+    whiteboard, landscape, vertical, multilingual text, and contact-sheet QA are supported. Local speech needs no account or
+    API key; optional ElevenLabs sends narration to its API, Kokoro provides local neural speech, faster-whisper transcribes
+    clips locally, and macOS Vision handles optional speaker cutouts. No mandatory GPU is documented.
+  source_types:
+  - 文本/想法
+  - 网页/搜索结果
+  - 任意/多源
+  tool_forms:
+  - Agent Skill
+  output_forms:
+  - 视频/音频
+  - SVG/PNG/PDF
+  catalog_section: main
+  readme_group: video

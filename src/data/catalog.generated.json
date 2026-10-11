@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-10-09T07:03:37.951Z",
-  "lastResearched": "2026-10-09",
+  "generatedAt": "2026-10-11T07:06:06.023Z",
+  "lastResearched": "2026-10-11",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 890,
+    "total": 892,
     "openSource": 214,
     "saas": 80,
     "modelApi": 274,
-    "examples": 1895,
-    "effectAssets": 2323,
-    "docs": 2194
+    "examples": 1898,
+    "effectAssets": 2324,
+    "docs": 2196
   },
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 90,
       "PDF/文档": 262,
-      "文本/想法": 583,
-      "数据/表格": 375,
-      "代码/技术描述": 189,
-      "任意/多源": 169,
-      "网页/搜索结果": 219,
-      "代码库": 101,
+      "文本/想法": 585,
+      "数据/表格": 376,
+      "代码/技术描述": 190,
+      "任意/多源": 170,
+      "网页/搜索结果": 220,
+      "代码库": 102,
       "DSL/代码": 183,
       "新闻/资讯": 33,
       "知识库/个人资料": 87,
@@ -31,7 +31,7 @@
     },
     "toolForms": {
       "开源应用/框架": 214,
-      "Agent Skill": 364,
+      "Agent Skill": 366,
       "Skill 集合": 88,
       "MCP Server": 292,
       "产品/SaaS": 80,
@@ -43,19 +43,19 @@
     },
     "outputForms": {
       "图形摘要/信息图": 70,
-      "PPT/演示文稿": 382,
-      "网页/交互页面": 332,
+      "PPT/演示文稿": 383,
+      "网页/交互页面": 333,
       "问答/学习材料": 23,
       "报告/长文档": 131,
       "证据表": 84,
       "信息图/视觉报告": 122,
-      "图表/仪表盘": 287,
+      "图表/仪表盘": 288,
       "架构图/流程图": 197,
-      "SVG/PNG/PDF": 393,
+      "SVG/PNG/PDF": 394,
       "报告/简报": 99,
       "白板/思维导图": 49,
       "图表/Mermaid": 81,
-      "视频/音频": 76,
+      "视频/音频": 77,
       "结构化数据/Markdown": 142,
       "表格/时间线": 36,
       "引用答案": 9,
@@ -66,19 +66,19 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 760,
+      "本地语言环境": 762,
       "模型 API": 274,
       "文档解析/OCR": 129,
-      "渲染/导出": 790,
+      "渲染/导出": 792,
       "GPU/加速器": 24,
-      "模板/素材": 449,
-      "Agent 宿主": 454,
-      "系统工具": 224,
+      "模板/素材": 451,
+      "Agent 宿主": 456,
+      "系统工具": 226,
       "浏览器/账号": 202,
       "存储/索引": 139,
       "MCP Client": 306,
       "外部检索/数据源": 185,
-      "代码分析工具": 63
+      "代码分析工具": 64
     },
     "categories": {
       "paper-visualization": 30,
@@ -88,9 +88,9 @@
       "data-dashboard": 137,
       "diagram-generation": 102,
       "literature-map": 5,
-      "presentation-tools": 273,
+      "presentation-tools": 274,
       "rendering-primitive": 29,
-      "video-generation": 28,
+      "video-generation": 29,
       "codebase-map": 54,
       "commercial-site": 10,
       "meta-index": 29
@@ -102,9 +102,9 @@
       "support_mindmap": 20,
       "docs": 44,
       "support_doc_parse": 24,
-      "presentation": 281,
+      "presentation": 282,
       "data": 131,
-      "video": 28,
+      "video": 29,
       "code": 61,
       "support_render": 72,
       "diagrams": 20,
@@ -73092,6 +73092,129 @@
       "docsCount": 0,
       "examplesCount": 0,
       "effectAssetsCount": 0
+    },
+    {
+      "name": "slides by kju4q",
+      "url": "https://github.com/kju4q/slides",
+      "primaryUrl": "https://github.com/kju4q/slides",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "代码分析工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "updated": "2026-10-09",
+      "note": "Claude Code skill that reads a repository, runs its own logic to reproduce numbers, and builds an eight-to-ten-slide self-contained HTML explainer with real code snippets, charts, examples, citations for unreproduced results, and optional live browser simulations. The deck works offline; authoring executes project code and may install its dependencies. Optional headless browser QA checks layout and console errors. No separate API key or GPU requirement is documented.",
+      "sourceTypes": [
+        "代码库",
+        "代码/技术描述",
+        "数据/表格",
+        "文本/想法"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "PPT/演示文稿",
+        "网页/交互页面",
+        "图表/仪表盘"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Skill workflow",
+          "url": "https://github.com/kju4q/slides/blob/HEAD/SKILL.md",
+          "source": "https://raw.githubusercontent.com/kju4q/slides/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "template",
+          "title": "Explainer deck template",
+          "url": "https://github.com/kju4q/slides/blob/HEAD/template.html",
+          "source": "https://raw.githubusercontent.com/kju4q/slides/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [],
+      "docsCount": 1,
+      "examplesCount": 1,
+      "effectAssetsCount": 0
+    },
+    {
+      "name": "khan-explainer",
+      "url": "https://github.com/haiderfarooq3/khan-explainer",
+      "primaryUrl": "https://github.com/haiderfarooq3/khan-explainer",
+      "homepage": null,
+      "category": "video-generation",
+      "surface": "skill",
+      "dependencies": [
+        "Agent 宿主",
+        "本地语言环境",
+        "系统工具",
+        "渲染/导出",
+        "模板/素材"
+      ],
+      "stars": 61,
+      "license": "MIT",
+      "updated": "2026-10-11",
+      "note": "macOS Claude Code skill for narrated board-drawing explainers, screenshot tutorials, and real-audio shorts, using HTML canvas, Playwright, Chromium, ffmpeg, and built-in say speech. Beat durations follow measured narration; blackboard, whiteboard, landscape, vertical, multilingual text, and contact-sheet QA are supported. Local speech needs no account or API key; optional ElevenLabs sends narration to its API, Kokoro provides local neural speech, faster-whisper transcribes clips locally, and macOS Vision handles optional speaker cutouts. No mandatory GPU is documented.",
+      "sourceTypes": [
+        "文本/想法",
+        "网页/搜索结果",
+        "任意/多源"
+      ],
+      "toolForms": [
+        "Agent Skill"
+      ],
+      "outputForms": [
+        "视频/音频",
+        "SVG/PNG/PDF"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "video",
+      "docs": [
+        {
+          "kind": "docs",
+          "title": "Skill workflow",
+          "url": "https://github.com/haiderfarooq3/khan-explainer/blob/HEAD/SKILL.md",
+          "source": "https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/README.md"
+        }
+      ],
+      "examples": [
+        {
+          "kind": "tutorial",
+          "title": "Claude Code skills for content: how I make Khan Academy style videos for free",
+          "url": "https://haiderfarooq.dev/blog/claude-code-skills-for-content",
+          "source": "https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/README.md"
+        },
+        {
+          "kind": "example",
+          "title": "AI agents lesson scene",
+          "url": "https://github.com/haiderfarooq3/khan-explainer/blob/HEAD/examples/ai-agents.js",
+          "source": "https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/README.md"
+        }
+      ],
+      "effectAssets": [
+        {
+          "kind": "image",
+          "title": "The same scene on the blackboard and on the whiteboard",
+          "url": "https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/docs/board.jpg",
+          "thumbnailUrl": null,
+          "source": "https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/README.md"
+        }
+      ],
+      "docsCount": 1,
+      "examplesCount": 2,
+      "effectAssetsCount": 1
     }
   ]
 }

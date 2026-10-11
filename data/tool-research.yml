@@ -1,4 +1,4 @@
-generated_at: '2026-10-09T07:03:37.951Z'
+generated_at: '2026-10-11T07:06:06.023Z'
 source_catalog: data/catalog.yml
 scope: Official project URLs, GitHub README/skill files, and catalog homepages. Stored as research data, not rendered in README.
 schema:
@@ -10,12 +10,12 @@ schema:
   official_links: All official links matching research keywords, including examples and docs.
   source_headings: README or page headings that mention examples, demos, docs, templates, papers, or tutorials.
 summary:
-  entries: 890
-  fetched_sources_ok: 1182
+  entries: 892
+  fetched_sources_ok: 1184
   fetched_sources_failed: 60
-  official_examples: 1895
-  official_effect_assets: 2323
-  official_docs: 2194
+  official_examples: 1898
+  official_effect_assets: 2324
+  official_docs: 2196
 entries:
 - name: Paper2Any
   category: paper-visualization
@@ -69758,3 +69758,104 @@ entries:
       bytes: 2292
   source_headings:
     - Example
+- name: slides by kju4q
+  category: presentation-tools
+  surface: skill
+  primary_url: https://github.com/kju4q/slides
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 代码分析工具
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: Claude Code skill that reads a repository, runs its own logic to reproduce numbers, and builds an
+    eight-to-ten-slide self-contained HTML explainer with real code snippets, charts, examples, citations for
+    unreproduced results, and optional live browser simulations. The deck works offline; authoring executes project code
+    and may install its dependencies. Optional headless browser QA checks layout and console errors. No separate API key
+    or GPU requirement is documented.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/kju4q/slides/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/kju4q/slides/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: slides, a Claude Code skill that turns a repo into an explainer deck
+      bytes: 2998
+  source_headings:
+    - slides, a Claude Code skill that turns a repo into an explainer deck
+  official_docs:
+    - kind: docs
+      title: Skill workflow
+      url: https://github.com/kju4q/slides/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/kju4q/slides/HEAD/README.md
+  official_examples:
+    - kind: template
+      title: Explainer deck template
+      url: https://github.com/kju4q/slides/blob/HEAD/template.html
+      source: https://raw.githubusercontent.com/kju4q/slides/HEAD/README.md
+  official_links:
+    - kind: template
+      title: Explainer deck template
+      url: https://github.com/kju4q/slides/blob/HEAD/template.html
+      source: https://raw.githubusercontent.com/kju4q/slides/HEAD/README.md
+    - kind: docs
+      title: Skill workflow
+      url: https://github.com/kju4q/slides/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/kju4q/slides/HEAD/README.md
+- name: khan-explainer
+  category: video-generation
+  surface: skill
+  primary_url: https://github.com/haiderfarooq3/khan-explainer
+  dependencies:
+    - Agent 宿主
+    - 本地语言环境
+    - 系统工具
+    - 渲染/导出
+    - 模板/素材
+  catalog_note: macOS Claude Code skill for narrated board-drawing explainers, screenshot tutorials, and real-audio
+    shorts, using HTML canvas, Playwright, Chromium, ffmpeg, and built-in say speech. Beat durations follow measured
+    narration; blackboard, whiteboard, landscape, vertical, multilingual text, and contact-sheet QA are supported. Local
+    speech needs no account or API key; optional ElevenLabs sends narration to its API, Kokoro provides local neural
+    speech, faster-whisper transcribes clips locally, and macOS Vision handles optional speaker cutouts. No mandatory
+    GPU is documented.
+  fetched_sources:
+    - kind: github_readme
+      url: https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/README.md
+      final_url: https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/README.md
+      status: 200
+      content_type: text/plain
+      title: khan-explainer
+      bytes: 4645
+  official_examples:
+    - kind: tutorial
+      title: "Claude Code skills for content: how I make Khan Academy style videos for free"
+      url: https://haiderfarooq.dev/blog/claude-code-skills-for-content
+      source: https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/README.md
+    - kind: example
+      title: AI agents lesson scene
+      url: https://github.com/haiderfarooq3/khan-explainer/blob/HEAD/examples/ai-agents.js
+      source: https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/README.md
+  official_effect_assets:
+    - kind: image
+      title: The same scene on the blackboard and on the whiteboard
+      url: https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/docs/board.jpg
+      source: https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/README.md
+  official_links:
+    - kind: tutorial
+      title: "Claude Code skills for content: how I make Khan Academy style videos for free"
+      url: https://haiderfarooq.dev/blog/claude-code-skills-for-content
+      source: https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/README.md
+    - kind: example
+      title: AI agents lesson scene
+      url: https://github.com/haiderfarooq3/khan-explainer/blob/HEAD/examples/ai-agents.js
+      source: https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/README.md
+    - kind: docs
+      title: Skill workflow
+      url: https://github.com/haiderfarooq3/khan-explainer/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/README.md
+  official_docs:
+    - kind: docs
+      title: Skill workflow
+      url: https://github.com/haiderfarooq3/khan-explainer/blob/HEAD/SKILL.md
+      source: https://raw.githubusercontent.com/haiderfarooq3/khan-explainer/HEAD/README.md

@@ -1,8 +1,10 @@
 # Search Log
 
-Last researched: 2026-10-09.
+Last researched: 2026-10-11.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
+
+Update on 2026-10-11: added slides by kju4q and khan-explainer using official GitHub READMEs, repository trees, and current API metadata. The former reproduces repository results for offline HTML explainers; the latter uses measured narration for board-drawing videos, tutorials, and clips. Local execution, macOS requirements, optional APIs, and optional neural speech/transcription dependencies are described explicitly. Targeted scraping fetched both official sources successfully; curated research retains three template/tutorial/scene examples, one board preview, and two skill workflow documents.
 
 Update on 2026-10-09: added Marp Presentation Skill by DavidElsdoerfer, Circuit Diagram Skill, and GeoGebra Skills by luzwales after official GitHub README, metadata, and rendering-code verification. These cover brand-aware Markdown presentations, deterministic DC-circuit diagrams and worked solutions, and editable geometry projects. GeoGebra rendering explicitly requires the official online runtime. Targeted scraping fetched three official sources successfully, retaining three circuit preview assets and three Marp documentation links. Repository licensing uncertainty for GeoGebra is recorded rather than inferred from its README statement.
 
