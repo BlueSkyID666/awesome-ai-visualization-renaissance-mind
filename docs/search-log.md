@@ -4,7 +4,7 @@ Last researched: 2026-10-13.
 
 This log records the discovery process used to seed the catalog. The goal is broad coverage with a clear audit trail, not a claim that every low-quality demo on GitHub has been included.
 
-Update on 2026-10-13: accepted community PR #4 for OrkasVideoStudio after reconciling its catalog addition with current main. Verified official README and MIT license, refreshed the entry description and star snapshot, added official workflow documentation and demo evidence, and synchronized all eight README catalogs and generated frontend data. Research was limited to this newly accepted entry.
+Update on 2026-10-13: accepted community PR #4 for OrkasVideoStudio after reconciling its catalog addition with current main. Verified official README and MIT license, refreshed the entry description and star snapshot, added official workflow documentation and prompt examples, and synchronized all eight README catalogs and generated frontend data. The linked video demonstration returned HTTP 404 and was excluded. Research was limited to this newly accepted entry.
 
 Update on 2026-10-13: accepted community PR #3 for Orkas after reconciling its catalog addition with current main. Verified official README and MIT license, refreshed the entry description and star snapshot, added official workflow documentation and demo evidence, and synchronized all eight README catalogs and generated frontend data. Research was limited to this newly accepted entry.
 
