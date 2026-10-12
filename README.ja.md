@@ -1,6 +1,7 @@
 ![AI visualization banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
 [![Catalog](https://img.shields.io/badge/catalog-892_items-blue)](data/catalog.yml)
 [![Last researched](https://img.shields.io/badge/last_researched-2026--10--11-brightgreen)](docs/search-log.md)
 
