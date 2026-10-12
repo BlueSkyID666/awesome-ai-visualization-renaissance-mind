@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-892_items-blue)](data/catalog.yml)
+[![Catalog](https://img.shields.io/badge/catalog-893_items-blue)](data/catalog.yml)
 [![Last researched](https://img.shields.io/badge/last_researched-2026--10--11-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | 한국어 | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
@@ -591,6 +591,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [ppt-master](https://github.com/hugohe3/ppt-master) [![Star](https://img.shields.io/github/stars/hugohe3/ppt-master?style=flat&logo=github&label=Star)](https://github.com/hugohe3/ppt-master/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 오픈소스 앱/프레임워크 | PPT/덱 | 로컬 런타임 / 모델 API / 렌더링/내보내기 / 템플릿/자산 |
 | [Oh My PPT](https://github.com/arcsin1/oh-my-ppt) [![Star](https://img.shields.io/github/stars/arcsin1/oh-my-ppt?style=flat&logo=github&label=Star)](https://github.com/arcsin1/oh-my-ppt/stargazers) | Text/ideas / PDF/documents / Office docs / Data/tables | Open-source app/framework | PPT/deck / Web/interactive page / SVG/PNG/PDF / Video/audio | Local runtime / Model API / Rendering/export / Templates/assets |
 | [Presenton](https://github.com/presenton/presenton) [![Star](https://img.shields.io/github/stars/presenton/presenton?style=flat&logo=github&label=Star)](https://github.com/presenton/presenton/stargazers) | 텍스트/아이디어 / PDF/문서 / 웹/검색 | 오픈소스 앱/프레임워크 / API/SDK/라이브러리 | PPT/덱 | 로컬 런타임 / 모델 API / 렌더링/내보내기 / MCP 클라이언트 / 템플릿/자산 |
+| [Orkas](https://github.com/Orkas-AI/Orkas) [![Star](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=flat&logo=github&label=Star)](https://github.com/Orkas-AI/Orkas/stargazers) | 텍스트/아이디어 / PDF/문서 / Office 문서 / 데이터/표 | 오픈소스 앱/프레임워크 | PPT/덱 | 로컬 런타임 / 모델 API / 렌더링/내보내기 |
 | [NodeSlide](https://github.com/HomenShum/NodeSlide) [![Star](https://img.shields.io/github/stars/HomenShum/NodeSlide?style=flat&logo=github&label=Star)](https://github.com/HomenShum/NodeSlide/stargazers) | 텍스트/아이디어 / 데이터/표 / PDF/문서 | 오픈소스 앱/프레임워크 / 제품/SaaS | PPT/덱 / 웹/인터랙티브 페이지 / 차트/대시보드 | 브라우저/계정 / 로컬 런타임 / 모델 API / 렌더링/내보내기 / 템플릿/자산 |
 | [Deckbuilder](https://github.com/teknologika/Deckbuilder) [![Star](https://img.shields.io/github/stars/teknologika/Deckbuilder?style=flat&logo=github&label=Star)](https://github.com/teknologika/Deckbuilder/stargazers) | 텍스트/아이디어 / DSL/코드 / 데이터/표 | MCP Server / API/SDK/라이브러리 | PPT/발표자료 | MCP Client / 로컬 런타임 / 렌더링/내보내기 / 템플릿/자산 |
 | [CREPE](https://github.com/mariolpantunes/crepe-mcp) [![Star](https://img.shields.io/github/stars/mariolpantunes/crepe-mcp?style=flat&logo=github&label=Star)](https://github.com/mariolpantunes/crepe-mcp/stargazers) | Papers/research / Web/search / Any/multi-source | MCP server | PPT/deck / SVG/PNG/PDF / Graphical abstract/infographic | MCP client / Agent host / Local runtime / External search/data / Rendering/export / System tools |

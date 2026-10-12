@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Homepage](https://img.shields.io/badge/Homepage-Visit-0ea5e9)](https://awesome-ai-visualization.renaissancemind.ai/)
-[![Catalog](https://img.shields.io/badge/catalog-892_items-blue)](data/catalog.yml)
+[![Catalog](https://img.shields.io/badge/catalog-893_items-blue)](data/catalog.yml)
 [![Last researched](https://img.shields.io/badge/last_researched-2026--10--11-brightgreen)](docs/search-log.md)
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md)
@@ -591,6 +591,7 @@ Tools that turn text, documents, web pages, research material, or outlines into 
 | [ppt-master](https://github.com/hugohe3/ppt-master) [![Star](https://img.shields.io/github/stars/hugohe3/ppt-master?style=flat&logo=github&label=Star)](https://github.com/hugohe3/ppt-master/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | オープンソースアプリ/フレームワーク | PPT/デッキ | ローカル実行環境 / モデル API / レンダリング/エクスポート / テンプレート/素材 |
 | [Oh My PPT](https://github.com/arcsin1/oh-my-ppt) [![Star](https://img.shields.io/github/stars/arcsin1/oh-my-ppt?style=flat&logo=github&label=Star)](https://github.com/arcsin1/oh-my-ppt/stargazers) | Text/ideas / PDF/documents / Office docs / Data/tables | Open-source app/framework | PPT/deck / Web/interactive page / SVG/PNG/PDF / Video/audio | Local runtime / Model API / Rendering/export / Templates/assets |
 | [Presenton](https://github.com/presenton/presenton) [![Star](https://img.shields.io/github/stars/presenton/presenton?style=flat&logo=github&label=Star)](https://github.com/presenton/presenton/stargazers) | テキスト/アイデア / PDF/文書 / Web/検索 | オープンソースアプリ/フレームワーク / API/SDK/ライブラリ | PPT/デッキ | ローカル実行環境 / モデル API / レンダリング/エクスポート / MCP クライアント / テンプレート/素材 |
+| [Orkas](https://github.com/Orkas-AI/Orkas) [![Star](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=flat&logo=github&label=Star)](https://github.com/Orkas-AI/Orkas/stargazers) | テキスト/アイデア / PDF/文書 / Office 文書 / データ/表 | オープンソースアプリ/フレームワーク | PPT/デッキ | ローカル実行環境 / モデル API / レンダリング/エクスポート |
 | [NodeSlide](https://github.com/HomenShum/NodeSlide) [![Star](https://img.shields.io/github/stars/HomenShum/NodeSlide?style=flat&logo=github&label=Star)](https://github.com/HomenShum/NodeSlide/stargazers) | テキスト/アイデア / データ/表 / PDF/文書 | オープンソースアプリ/フレームワーク / 製品/SaaS | PPT/デッキ / Web/インタラクティブページ / チャート/ダッシュボード | ブラウザ/アカウント / ローカル実行環境 / モデル API / レンダリング/エクスポート / テンプレート/素材 |
 | [Deckbuilder](https://github.com/teknologika/Deckbuilder) [![Star](https://img.shields.io/github/stars/teknologika/Deckbuilder?style=flat&logo=github&label=Star)](https://github.com/teknologika/Deckbuilder/stargazers) | テキスト/アイデア / DSL/コード / データ/表 | MCP Server / API/SDK/ライブラリ | PPT/スライド | MCP Client / ローカル実行環境 / レンダリング/エクスポート / テンプレート/素材 |
 | [CREPE](https://github.com/mariolpantunes/crepe-mcp) [![Star](https://img.shields.io/github/stars/mariolpantunes/crepe-mcp?style=flat&logo=github&label=Star)](https://github.com/mariolpantunes/crepe-mcp/stargazers) | Papers/research / Web/search / Any/multi-source | MCP server | PPT/deck / SVG/PNG/PDF / Graphical abstract/infographic | MCP client / Agent host / Local runtime / External search/data / Rendering/export / System tools |

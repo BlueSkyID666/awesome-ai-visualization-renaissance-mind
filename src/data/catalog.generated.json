@@ -3,10 +3,10 @@
   "lastResearched": "2026-10-11",
   "sourceCatalog": "data/catalog.yml",
   "summary": {
-    "total": 892,
-    "openSource": 214,
+    "total": 893,
+    "openSource": 215,
     "saas": 80,
-    "modelApi": 274,
+    "modelApi": 275,
     "examples": 1898,
     "effectAssets": 2324,
     "docs": 2196
@@ -14,9 +14,9 @@
   "facets": {
     "sourceTypes": {
       "论文/科研资料": 90,
-      "PDF/文档": 262,
-      "文本/想法": 585,
-      "数据/表格": 376,
+      "PDF/文档": 263,
+      "文本/想法": 586,
+      "数据/表格": 377,
       "代码/技术描述": 190,
       "任意/多源": 170,
       "网页/搜索结果": 220,
@@ -24,13 +24,13 @@
       "DSL/代码": 183,
       "新闻/资讯": 33,
       "知识库/个人资料": 87,
-      "Office 文档": 176,
+      "Office 文档": 177,
       "引用网络": 5,
       "数据库": 80,
       "视频/音频": 3
     },
     "toolForms": {
-      "开源应用/框架": 214,
+      "开源应用/框架": 215,
       "Agent Skill": 366,
       "Skill 集合": 88,
       "MCP Server": 292,
@@ -43,7 +43,7 @@
     },
     "outputForms": {
       "图形摘要/信息图": 70,
-      "PPT/演示文稿": 383,
+      "PPT/演示文稿": 384,
       "网页/交互页面": 333,
       "问答/学习材料": 23,
       "报告/长文档": 131,
@@ -66,10 +66,10 @@
       "图表/渲染输出": 30
     },
     "dependencies": {
-      "本地语言环境": 762,
-      "模型 API": 274,
+      "本地语言环境": 763,
+      "模型 API": 275,
       "文档解析/OCR": 129,
-      "渲染/导出": 792,
+      "渲染/导出": 793,
       "GPU/加速器": 24,
       "模板/素材": 451,
       "Agent 宿主": 456,
@@ -88,7 +88,7 @@
       "data-dashboard": 137,
       "diagram-generation": 102,
       "literature-map": 5,
-      "presentation-tools": 274,
+      "presentation-tools": 275,
       "rendering-primitive": 29,
       "video-generation": 29,
       "codebase-map": 54,
@@ -102,7 +102,7 @@
       "support_mindmap": 20,
       "docs": 44,
       "support_doc_parse": 24,
-      "presentation": 282,
+      "presentation": 283,
       "data": 131,
       "video": 29,
       "code": 61,
@@ -73215,6 +73215,43 @@
       "docsCount": 1,
       "examplesCount": 2,
       "effectAssetsCount": 1
+    },
+    {
+      "name": "Orkas",
+      "url": "https://github.com/Orkas-AI/Orkas",
+      "primaryUrl": "https://github.com/Orkas-AI/Orkas",
+      "homepage": null,
+      "category": "presentation-tools",
+      "surface": "open-source",
+      "dependencies": [
+        "本地语言环境",
+        "模型 API",
+        "渲染/导出"
+      ],
+      "stars": null,
+      "license": "MIT",
+      "updated": "2026-09-23",
+      "note": "PptMaker turns briefs, documents and existing decks into editable presentations inside Orkas, an open-source, local-first desktop AI workforce coordinated by Commander.",
+      "sourceTypes": [
+        "文本/想法",
+        "PDF/文档",
+        "Office 文档",
+        "数据/表格"
+      ],
+      "toolForms": [
+        "开源应用/框架"
+      ],
+      "outputForms": [
+        "PPT/演示文稿"
+      ],
+      "catalogSection": "main",
+      "readmeGroup": "presentation",
+      "docs": [],
+      "examples": [],
+      "effectAssets": [],
+      "docsCount": 0,
+      "examplesCount": 0,
+      "effectAssetsCount": 0
     }
   ]
 }
